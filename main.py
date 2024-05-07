@@ -1,5 +1,5 @@
-from configuration_bert import BertConfig
-from modeling_bert import BertForMaskedLM
+from mobilebert.configuration_bert import BertConfig
+from mobilebert.modeling_bert import BertForMaskedLM
 import torch
 
 config = BertConfig(

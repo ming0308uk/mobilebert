@@ -54,7 +54,7 @@ from transformers.utils import (
     logging,
     replace_return_docstrings,
 )
-from configuration_bert import BertConfig
+from .configuration_bert import BertConfig
 
 
 logger = logging.get_logger(__name__)
